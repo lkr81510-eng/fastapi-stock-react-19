@@ -34,7 +34,7 @@ function App() {
   if (error) {
     return (
       <main>
-        <p className="error">데이터를 불러오지 못했습니다. {error}</p>
+        <p className="error">데이터를 불러 오지 못했습니다. {error}</p>
       </main>
     )
   }
