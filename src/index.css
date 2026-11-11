@@ -1,0 +1,34 @@
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: system-ui, sans-serif;
+}
+
+h1 small {
+  font-size: 16px;
+  font-weight: normal;
+  color: #666;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}
+
+.error {
+  color: #c62828;
+}
